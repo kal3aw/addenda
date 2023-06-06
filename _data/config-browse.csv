@@ -4,3 +4,5 @@ creator,Creator,,,
 subject,,true
 location,,true
 identifier,,,true,Identifier
+source,Source,true,true,
+series,Series,true,true,
