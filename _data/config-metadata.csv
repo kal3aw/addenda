@@ -1,14 +1,11 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-series,Series,,,,
-volume,Volume,,,,
 date,Date,,,DCTERMS.date,dateCreated
-subject,Subjects,true,,DCTERMS.subject,keywords
 type_document,Document Type,,,,
-source,Source,,,,
+source_regularized,Source,,,,
+subject,Subjects,true,,DCTERMS.subject,keywords
 latitude,Latitude,,,,
 longitude,Longitude,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
-founders_online,View Online,true,,
+corresponding_volume,Corresponding Volume,,,,
+founders_online,View Online,,true,
 date_added,Date Added,,,,
