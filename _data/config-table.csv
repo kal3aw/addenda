@@ -1,5 +1,7 @@
 field,display_name
 title,Title
-date,Date
-description,Description
-subject,Subjects
+date,Date Created
+corresponding_volume, Corresponding Volume
+date_added,Date Added
+founders_online, View Document
+
