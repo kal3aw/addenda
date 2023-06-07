@@ -20,7 +20,7 @@
 {% assign terms = terms | append: ";" | append: new %}
 {%- endfor -%}
 {%- comment -%} find unique terms and counts {%- endcomment -%}
-{%- assign uniqTerms = terms | downcase | split: ";" | array_count_uniq | sort | where_exp: 't','t[1] >= termsMin' -%}
+{%- assign uniqTerms = terms | split: ";" | array_count_uniq | sort | where_exp: 't','t[1] >= termsMin' -%}
 
 <script>
 (function(){    
