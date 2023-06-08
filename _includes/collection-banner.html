@@ -33,19 +33,41 @@
     </div>
 </div>
 {%- else -%}
+<style>
+    #org-nav-banner {
+        background-image: url('{{ site.organization-nav-banner | relative_url }}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+    #title {
+        padding-top: 7em;
+        padding-bottom:  1em;
+    }
+    @media screen and (max-width: 576px) {
+        #title {
+            max-height: 500px;
+        }
+    }
+    </style>
+    <div id="org-nav-banner">
+        <div class="bg-dark bg-opacity-50">
 <div class="container">
     <div class="row align-items-center">
-        <div id="title" class="{% if site.organization-logo-banner %}col-md-9{% else %}col-12{% endif %}">
-            <h1><a class="text-dark font-weight-normal" href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
+        <div id="title" class="{% if site.organization-logo-banner %}col-md-9{% else %}col-12{% endif %} text-white">
+            <h1><a class="text-white font-weight-bold" href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
             {% if site.tagline %}<p>{{ site.tagline }}</p>{% endif %}
         </div>
         {% if site.organization-logo-banner %}
         <div class="col-md-3 d-none d-lg-block text-end">
-            <a class="btn btn-outline-light" href="{{ site.organization-link }}" target="_blank" rel="noopener">
+            <a class="btn" href="{{ site.organization-link }}" target="_blank" rel="noopener">
                 <img class="img-fluid" src="{{ site.organization-logo-banner | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home" >
             </a>
         </div>
         {% endif %}
     </div>
-</div>
+    </div>
+    </div>
+    </div>
 {%- endif -%}

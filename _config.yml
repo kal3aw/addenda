@@ -52,7 +52,8 @@ metadata: PGW_Addenda_metadata_CB
 #
 organization-name: "The Washington Papers"
 organization-link: https://washingtonpapers.org
-organization-logo-banner: 
+organization-nav-banner: /assets/img/MtVernonRefLib.png
+organization-logo-banner: https://washingtonpapers.org/wp-content/uploads/2018/10/Facebook-3.png
 organization-logo-nav: 
 
 ##########
