@@ -2,7 +2,7 @@ display_name,stub,dropdown_parent
 Home,/,
 About,/about.html,
 Browse,,
-All New Documents, /browse.html,Browse
+All New Documents,/browse.html,Browse
 By Subject,/subjects.html,Browse
 By Series,/locations.html,Browse
 Sources,/map.html
