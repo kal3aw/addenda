@@ -1,11 +1,12 @@
 display_name,stub,dropdown_parent
 Home,/,
-Browse,/browse.html,
-Subjects,/subjects.html,
-Locations,/locations.html,
-Map,/map.html,
+About,/about.html,
+Browse,,
+All New Documents, /browse.html,Browse
+By Subject,/subjects.html,Browse
+By Series,/locations.html,Browse
+Sources,/map.html
 Timelines,,
 By Date Created,/timeline-date-created,Timelines
 By Date Added,/timeline-date-added,Timelines
-Data,/data.html,
-About,/about.html,
+View Data,/data.html,
