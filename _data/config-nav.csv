@@ -5,8 +5,8 @@ Browse,,
 All New Documents,/browse.html,Browse
 By Subject,/subjects.html,Browse
 By Series,/locations.html,Browse
-Sources,/map.html
-Timelines,,
-By Date Created,/timeline-date-created,Timelines
-By Date Added,/timeline-date-added,Timelines
+Timeline of Documents,,
+By Date Written,/timeline-date-created,Timelines
+By Date Added to Edition,/timeline-date-added,Timelines
+Source Repositories,/map.html
 View Data,/data.html,
