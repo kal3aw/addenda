@@ -1,7 +1,7 @@
 ---
-title: By Date Created
+title: By Date Written
 layout: timeline_date_created
-permalink: /timeline-date-created.html
+permalink: /timeline-date-written.html
 ---
 
 ## Collection Timeline

@@ -6,7 +6,7 @@ All New Documents,/browse.html,Browse
 By Subject,/subjects.html,Browse
 By Series,/locations.html,Browse
 Timeline of Documents,,
-By Date Written,/timeline-date-created,Timelines
-By Date Added to Edition,/timeline-date-added,Timelines
-Source Repositories,/map.html
+By Date Written,/timeline-date-written,Timeline of Documents
+By Date Added to Edition,/timeline-date-added,Timeline of Documents
+Source Repositories,/source-repositories.html
 View Data,/data.html,
