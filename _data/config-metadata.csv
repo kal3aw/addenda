@@ -1,11 +1,9 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-date,Date,,,DCTERMS.date,dateCreated
+date,Date Written,,,DCTERMS.date,dateCreated
 type_document,Document Type,,,,
 source_regularized,Source,,,,
 subject,Subjects,true,,DCTERMS.subject,keywords
-latitude,Latitude,,,,
-longitude,Longitude,,,,
 corresponding_volume,Corresponding Volume,,,,
+date_added,Date Added to Edition,,,,
 founders_online,View Online,,true,
-date_added,Date Added,,,,

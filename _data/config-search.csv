@@ -1,7 +1,7 @@
 field,index,display
 title,true,true
 date,true,true
-creator,true,false
-description,true,true
+date_added,true,true
 subject,true,true
-location,true,false
+source_regularized,true,true
+source,true,true
