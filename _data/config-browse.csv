@@ -1,7 +1,6 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
-creator,Creator,,,
 subject,,true
-source_regularized,Source,true,,
-series,Series,true,,
+source_regularized,Source,true,,Source
+series,Series,true,,Series
 corresponding_volume,Corresponding Volume,,true,
