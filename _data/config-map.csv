@@ -1,5 +1,4 @@
 field,display_name,search
 date,Date,true
-creator,Creator,true
-subject,Subjects,true
-location,Location,true
+corresponding_volume,Corresponding Volume,true
+source_regularized,Source,true

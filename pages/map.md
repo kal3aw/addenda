@@ -1,5 +1,5 @@
 ---
-title: Map
+title: Source Repositories
 layout: map
-permalink: /map.html
+permalink: /source-repositories.html
 ---
